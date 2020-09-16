@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="128441" started-at="2020-09-16T02:01:21Z" finished-at="2020-09-16T02:03:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="128441" started-at="2020-09-16T02:01:21Z" finished-at="2020-09-16T02:03:30Z">
+      <class name="testcases.SearchProduct">
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.SearchProduct@320de594]" name="set" is-config="true" duration-ms="8787" started-at="2020-09-16T09:01:21Z" finished-at="2020-09-16T09:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="searchByClickPopulerSearch()[pri:0, instance:testcases.SearchProduct@320de594]" name="searchByClickPopulerSearch" duration-ms="15314" started-at="2020-09-16T09:01:30Z" finished-at="2020-09-16T09:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByClickPopulerSearch -->
+        <test-method status="PASS" signature="done(org.testng.ITestResult)[pri:0, instance:testcases.SearchProduct@320de594]" name="done" is-config="true" duration-ms="2175" started-at="2020-09-16T09:01:46Z" finished-at="2020-09-16T09:01:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchByClickPopulerSearch status=SUCCESS method=SearchProduct.searchByClickPopulerSearch()[pri:0, instance:testcases.SearchProduct@320de594] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.SearchProduct@320de594]" name="set" is-config="true" duration-ms="6499" started-at="2020-09-16T09:01:48Z" finished-at="2020-09-16T09:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="searchByClickPopulerCatgory()[pri:1, instance:testcases.SearchProduct@320de594]" name="searchByClickPopulerCatgory" duration-ms="25048" started-at="2020-09-16T09:01:54Z" finished-at="2020-09-16T09:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByClickPopulerCatgory -->
+        <test-method status="PASS" signature="done(org.testng.ITestResult)[pri:0, instance:testcases.SearchProduct@320de594]" name="done" is-config="true" duration-ms="1742" started-at="2020-09-16T09:02:19Z" finished-at="2020-09-16T09:02:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchByClickPopulerCatgory status=SUCCESS method=SearchProduct.searchByClickPopulerCatgory()[pri:1, instance:testcases.SearchProduct@320de594] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.SearchProduct@320de594]" name="set" is-config="true" duration-ms="6333" started-at="2020-09-16T09:02:23Z" finished-at="2020-09-16T09:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="searchByKeyword(java.lang.String)[pri:2, instance:testcases.SearchProduct@320de594]" name="searchByKeyword" duration-ms="14618" started-at="2020-09-16T09:02:29Z" data-provider="search" finished-at="2020-09-16T09:02:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sepeda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByKeyword -->
+        <test-method status="PASS" signature="done(org.testng.ITestResult)[pri:0, instance:testcases.SearchProduct@320de594]" name="done" is-config="true" duration-ms="1945" started-at="2020-09-16T09:02:44Z" finished-at="2020-09-16T09:02:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchByKeyword status=SUCCESS method=SearchProduct.searchByKeyword(java.lang.String)[pri:2, instance:testcases.SearchProduct@320de594] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.SearchProduct@320de594]" name="set" is-config="true" duration-ms="6707" started-at="2020-09-16T09:02:46Z" finished-at="2020-09-16T09:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="searchByKeyword(java.lang.String)[pri:2, instance:testcases.SearchProduct@320de594]" name="searchByKeyword" duration-ms="14885" started-at="2020-09-16T09:02:52Z" data-provider="search" finished-at="2020-09-16T09:03:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[motor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByKeyword -->
+        <test-method status="PASS" signature="done(org.testng.ITestResult)[pri:0, instance:testcases.SearchProduct@320de594]" name="done" is-config="true" duration-ms="1797" started-at="2020-09-16T09:03:07Z" finished-at="2020-09-16T09:03:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchByKeyword status=SUCCESS method=SearchProduct.searchByKeyword(java.lang.String)[pri:2, instance:testcases.SearchProduct@320de594] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.SearchProduct@320de594]" name="set" is-config="true" duration-ms="6090" started-at="2020-09-16T09:03:09Z" finished-at="2020-09-16T09:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="searchByKeywordNotFound()[pri:3, instance:testcases.SearchProduct@320de594]" name="searchByKeywordNotFound" duration-ms="13003" started-at="2020-09-16T09:03:15Z" finished-at="2020-09-16T09:03:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByKeywordNotFound -->
+        <test-method status="PASS" signature="done(org.testng.ITestResult)[pri:0, instance:testcases.SearchProduct@320de594]" name="done" is-config="true" duration-ms="1647" started-at="2020-09-16T09:03:28Z" finished-at="2020-09-16T09:03:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchByKeywordNotFound status=SUCCESS method=SearchProduct.searchByKeywordNotFound()[pri:3, instance:testcases.SearchProduct@320de594] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+      </class> <!-- testcases.SearchProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,39 @@
+Basic Programming
+
+1. What is the data-type usually used in arithmetic operation?
+Answer: Integer
+
+2. What is the data-type usually used in word and character?
+Answer: String
+
+3. Answer: 113
+
+4. Answer: 2
+
+5. Answer: 3566GoldenStreetMiami
+
+
+Flaky Test
+
+1. What is a flaky test? 
+Answer: A test that exhibits both a passing and failing result with the same code, which is caused by several factors such as:
+- Loading time from application until all elements are displayed successfully
+- Unstable time assertation on test scripts
+- Test scripts that depend on other testing scripts
+- Internet connection used for testing is not stable
+- Unstable application
+
+2. An element in a website is using ajax/javascript to show the data (processed as
+asynchronous). What do you do to test that element?
+Answer: Give Assertation Time until the element appears
+
+3. A website page can only be accessed with CAPTCHA. How do you test that page?
+Answer: The following are some Testing Scenarios for performing Captha testing:
+- Validate that the system accepts valid Captcha.
+- Validate that the system rejects the invalid Captcha.
+- Validate that the Captcha code resets as the system reloads or new request Captcha.
+- Validate that the Captcha changes as the user enters wrong value.
+- Validate the readability of the Captcha.
+
+
+
